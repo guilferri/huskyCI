@@ -9,7 +9,7 @@ import (
 
 	mongoHuskyCI "github.com/globocom/huskyCI/api/db/mongo"
 	"github.com/globocom/huskyCI/api/types"
-	"gopkg.in/mgo.v2/bson"
+	"go.mongodb.org/mongo-driver/bson"
 )
 
 // ConnectDB will call Connect function

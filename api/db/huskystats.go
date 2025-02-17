@@ -11,7 +11,7 @@ import (
 
 	mongoHuskyCI "github.com/globocom/huskyCI/api/db/mongo"
 	"github.com/globocom/huskyCI/api/util"
-	"gopkg.in/mgo.v2/bson"
+	"go.mongodb.org/mongo-driver/bson"
 )
 
 const timeRangeQS = "time_range"
